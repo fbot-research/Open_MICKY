@@ -1,4 +1,4 @@
 sphinx
 myst-parser
-pydata-sphinx-theme
+sphinx-rtd-theme
 sphinxcontrib-youtube
