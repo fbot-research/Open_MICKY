@@ -4,9 +4,9 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.10"
-
-sphinx:
-  configuration: docs/conf.py
+  commands:
+    - cd docs
+    - sphinx-build -b html . $READTHEDOCS_OUTPUT/html
 
 python:
   install:
