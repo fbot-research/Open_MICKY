@@ -20,14 +20,32 @@ myst_enable_extensions = [
 
 myst_heading_anchors = 3
 
-html_theme = 'furo'
+html_theme = 'pydata_sphinx_theme'
 
-# opcional (remova se não criar a pasta)
 html_static_path = ['_static']
 
 html_theme_options = {
+    # 🎨 cores
     "light_css_variables": {
         "color-brand-primary": "#2B5D9F",
         "color-brand-content": "#2B5D9F",
     },
+
+    # 🧭 navbar
+    "navbar_start": ["navbar-logo"],
+    "navbar_center": ["navbar-nav"],
+    "navbar_end": ["navbar-icon-links"],
+
+    # 🔗 ícones (GitHub)
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/fbot-research/open_micky",
+            "icon": "fab fa-github",
+        },
+    ],
+
+    # opcional (recomendado)
+    "navbar_align": "left",
+    "show_nav_level": 1,
 }
