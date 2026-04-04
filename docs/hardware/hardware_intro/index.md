@@ -1,4 +1,4 @@
-## 🛠️ Hardware Intro 🛠️
+## 🛠️ Hardware Intro
 
 **XLeRobot** = Lekiwi + 1x SO-100/SO-101 arm + **IKEA RÅSKOG Cart** + **Anker Battery**
 
