@@ -60,7 +60,8 @@ html_js_files = [
 
 html_title = ""
 html_theme = 'furo'
-html_static_path = ['_static']
-html_favicon = "_static/favicon.ico"
 html_permalinks = False
+html_static_path = ['_static']
+html_css_files = ["custom.css"]
+html_favicon = "_static/favicon.ico"
 # html_logo = "_static/Submarca_fundo_claro.png"
