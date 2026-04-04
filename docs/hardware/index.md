@@ -18,6 +18,7 @@
 ```{toctree}
 :caption: Get started
 getting_started/material
+getting_started/3d
 ```
 
 ```{toctree}
