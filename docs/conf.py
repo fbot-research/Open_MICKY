@@ -50,12 +50,15 @@ html_theme_options = {
         "color-brand-primary": "#ff5500", 
         "color-brand-content": "#ff5500", 
     },
+    
+    "sidebar_hide_name": True,
 }
 
 html_js_files = [
     "theme.js",
 ]
 
+html_title = ""
 html_theme = 'furo'
 html_static_path = ['_static']
 html_favicon = "_static/favicon.ico"
