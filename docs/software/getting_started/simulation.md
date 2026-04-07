@@ -80,16 +80,16 @@ RViz will open with the `/map` topic displayed. The map starts empty and is buil
 In a **third terminal**, start the keyboard teleop:
 
 ```bash
-os2 run teleop_twist_keyboard teleop_twist_keyboard
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
 | Key | Action |
 |---|---|
-| `w` / `s` | Forward / backward |
-| `a` / `d` | Strafe left / right |
-| `q` / `e` | Rotate left / right |
-| `x` | Stop |
-| `+` / `-` | Increase / decrease linear speed |
+| `i` / `,` | Forward / backward |
+| `j` / `l` | Strafe left / right |
+| `u` / `o` | Rotate left / right |
+| `space` | Stop |
+| `w` / `x` | Increase / decrease linear speed |
 
 Drive the robot around the entire environment. The map in RViz fills in as new areas are scanned. For best results, make at least one full loop so slam_toolbox can close the loop.
 
