@@ -1,6 +1,6 @@
 # Hardware
 
-## 💵 Total Cost 💵
+## Total Cost
 
 > Cost excludes 3D printing, tools, shipping, and taxes.
 > 
@@ -13,7 +13,7 @@
 | **Total** | **~R$5222.63** | **~$1012.84** | **~€873.22** |
 
 
-## 🚀 Get Started 🚀
+## Get Started
 
 ```{toctree}
 :caption: Get started

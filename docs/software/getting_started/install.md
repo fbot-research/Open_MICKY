@@ -1,4 +1,4 @@
-### ⚙️ Install MICKY
+### Install MICKY
 
 To install MICKY, follow the commands below.
 

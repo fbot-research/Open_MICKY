@@ -1,5 +1,8 @@
-## 🤖 MICKY Teleop
+## MICKY Teleop
 
-### ⌨️ Keyboard Teleop
 
-### 🎮 Xbox Controller Teleop
+### Keyboard Teleop
+
+
+### Xbox Controller Teleop
+
