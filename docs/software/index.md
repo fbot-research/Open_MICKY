@@ -29,5 +29,5 @@ getting_started/MICKY_teleop
 
 ```{toctree}
 :caption: Simulation
-simulation
+getting_started/simulation
 ```
