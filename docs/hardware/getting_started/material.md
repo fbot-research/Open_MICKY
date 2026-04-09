@@ -49,3 +49,28 @@ We opted to manufacture the wheels through a local supplier, as this proved to b
 | Nickel-Plated Steel Strip for 18650 Battery Spot Welding (10 m × 8 mm)| 5 | R$30.93 | $6.00 | €5.18 | [Usainfo](https://www.usinainfo.com.br/ferramentas/fita-de-niquel-com-aco-para-soldar-baterias-18650-10-metros-x-8mm-8694.html) |
 | Insulated Fork Terminals for 2.5 mm² Conductors (Blue, 100 pcs)| 1 | R$31.00 | $6.01 | €5.19 | [Casa do Eletricista](https://www.casadoeletricistasc.com.br/terminal-pre-isolado-garfo-para-cabo-2-5mm2-azul-100-unidades/p/kit197) |
 | TP-Link UH700 7-Port USB 3.0 Powered Hub | 1 | R$229.90 | $44.6 | €38.49 | [Kabum](https://www.kabum.com.br/produto/129463/hub-tp-link-portatil-usb-3-0-de-7-portas-uh700) |
+
+## 3D Printed Parts
+
+The following table lists all required 3D printed components.
+
+| Module | Part | Quantity | STL Link |
+|--------|------|----------|----------|
+| Structural | Door Handle| 1 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/structural/door_handle.stl) |
+| Structural | Door Handle Magnet | 1 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/structural/door_handle_magnet.stl) |
+| Structural | Side Acrylic Magnet | 6 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/structural/side_acrylic_magnet.stl) |
+| Structural | Side Acrylic Magnet Mount | 6 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/structural/side_acrylic_magnet_mount.stl) |
+| Battery | Battery Case Lower | 4 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/battery/battery_case_female_socket_mount.stl) |
+| Battery | Battery Case Upper | 4 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/battery/battery_case_lower.stl) |
+| Battery | Battery Case Female Socket Mount | 4 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/battery/battery_case_upper.stl) |
+| Battery | Battery Hotswap Connector | 2 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/battery/battery_hotswap_connector.stl) |
+| Battery | Battery Hotswap Male Connector | 4 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/battery/battery_hotswap_male_connector.stl) |
+| Drivers | Arduino Board Mount | 1 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/drivers/arduino_PCB_support.stl) |
+| Drivers | Driver Board Left Mount | 1 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/drivers/driver_PCB_left_support.stl) |
+| Drivers | Driver Board Right Mount | 1 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/drivers/driver_PCB_right_support.stl) |
+| Drivers | PCB's Support | 1 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/drivers/PCBs_support.stl) |
+| Drivers | Drivers Mount | 4 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/drivers/drivers_support.stl) |
+| Motors | Front Motor Mount | 2 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/motors/front_motor_mount.stl) |
+| Motors | Rear Motor Mount Left | 1 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/motors/rear_motor_mount_left.stl) |
+| Motors | Rear Motor Mount Right | 1 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/motors/rear_motor_mount_right.stl) |
+| Emergency | Emergency Stop Button Mount | 1 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/emergency_button/emergency_button.stl) |
