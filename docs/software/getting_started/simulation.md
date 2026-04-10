@@ -4,6 +4,7 @@
 
 - [MICKY Simulation - Mapping Tutorial](#micky-simulation---mapping-tutorial)
   - [Table of Contents](#table-of-contents)
+  - [Installing the Simulation Repository](#installing-the-simulation-repository)
   - [Prerequisites and Dependencies](#prerequisites-and-dependencies)
   - [Building the Workspace](#building-the-workspace)
   - [Step 1 — Launch Gazebo](#step-1--launch-gazebo)
@@ -14,6 +15,26 @@
     - [Gazebo does not open / freezes on startup](#gazebo-does-not-open--freezes-on-startup)
     - [Map stays empty in RViz](#map-stays-empty-in-rviz)
     - [Robot does not move](#robot-does-not-move)
+
+---
+
+## Installing the Simulation Repository
+
+Create the workspace directory and clone the simulation repository:
+
+```bash
+mkdir -p ~/micky_ws/src
+cd ~/micky_ws/src
+git clone https://github.com/Open-Micky/micky_simulation.git
+```
+
+Install rosdep dependencies:
+
+```bash
+cd ~/micky_ws
+rosdep update
+rosdep install --from-paths src --ignore-src -r -y
+```
 
 ---
 
