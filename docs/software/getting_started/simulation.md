@@ -1,31 +1,21 @@
 # MICKY Simulation - Mapping Tutorial
 
-## Table of Contents
-
-- [MICKY Simulation - Mapping Tutorial](#micky-simulation---mapping-tutorial)
-  - [Table of Contents](#table-of-contents)
-  - [Installing the Simulation Repository](#installing-the-simulation-repository)
-  - [Prerequisites and Dependencies](#prerequisites-and-dependencies)
-  - [Building the Workspace](#building-the-workspace)
-  - [Step 1 — Launch Gazebo](#step-1--launch-gazebo)
-  - [Step 2 — Launch SLAM](#step-2--launch-slam)
-  - [Step 3 — Drive the Robot (Teleop)](#step-3--drive-the-robot-teleop)
-  - [Step 4 — Save the Map](#step-4--save-the-map)
-  - [Common Troubleshooting](#common-troubleshooting)
-    - [Gazebo does not open / freezes on startup](#gazebo-does-not-open--freezes-on-startup)
-    - [Map stays empty in RViz](#map-stays-empty-in-rviz)
-    - [Robot does not move](#robot-does-not-move)
-
 ---
+
+## Pre Requisite:
+
+- **ROS 2 Humble**
+- **Gazebo Harmonic** (or Garden)
+
+--- 
 
 ## Installing the Simulation Repository
 
-Create the workspace directory and clone the simulation repository:
+Navigate to your workspace source directory and clone the repository:
 
 ```bash
-mkdir -p ~/micky_ws/src
 cd ~/micky_ws/src
-git clone https://github.com/Open-Micky/micky_simulation.git
+git clone https://github.com/FBOTWork/micky_simulation.git
 ```
 
 Install rosdep dependencies:
@@ -35,13 +25,6 @@ cd ~/micky_ws
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
 ```
-
----
-
-## Prerequisites and Dependencies
-
-- **ROS 2 Humble** (Ubuntu 22.04)
-- **Gazebo Harmonic** (or Garden)
 
 Install required ROS 2 packages:
 
