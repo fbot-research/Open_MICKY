@@ -16,12 +16,12 @@
 ## Get Started
 
 ```{toctree}
-:caption: Get started
-getting_started/material
-getting_started/3d
+:caption: Hardware Intro
+hardware_intro/index
 ```
 
 ```{toctree}
-:caption: Hardware Intro
-hardware_intro/index
+:caption: Get started
+getting_started/material
+getting_started/3d
 ```
