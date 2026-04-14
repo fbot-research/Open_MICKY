@@ -1,4 +1,4 @@
-# **Bill of Material**
+# Bill of Material
 
 ##  Total Cost 
 
@@ -60,7 +60,7 @@ We opted to manufacture the wheels through a local supplier, as this proved to b
 | --- | --- | --- | --- |
 | 5-Conductor Lever-Nut Connector | 10 | R$3.50 | $0.68 | €0.59 | [Eletrogate](https://www.eletrogate.com/conector-wago-borne-emenda-para-5-fios) |
 | XT60 60A Male/Female Power Connector Pair | 8 | €2,59 | [Mouser](https://eu.mouser.com/ProductDetail/TE-Connectivity-Raychem/55A0111-14-0?qs=pLY5GE0xrmLM0HQX5pSW2g%3D%3D) |
-| Heat Shrink Tubing Assortment Kit, 5 Colors, 328 Pieces | 1 | R$14.90 | $2.89 | €2.49 | [Eletrogate](https://www.eletrogate.com/kit-tubo-termo-retratil-com-328-unidades-em-5-cores) |
+| Heat Shrink Tubing Assortment Kit, 5 Colors, 328 Pieces | 1 | R$14.90 | $2.89 | €2.49 | [Mouser](https://eu.mouser.com/ProductDetail/KS-Terminals/EN2508?qs=%252B6g0mu59x7IZJehitj7%252BJA%3D%3D) |
 | Nickel-Plated Steel Strip for 18650 Battery Spot Welding (10 m × 8 mm)| 5 | R$30.93 | $6.00 | €5.18 | [Usainfo](https://www.usinainfo.com.br/ferramentas/fita-de-niquel-com-aco-para-soldar-baterias-18650-10-metros-x-8mm-8694.html) |
 | Insulated Fork Terminals for 2.5 mm² Conductors (Blue, 100 pcs)| 1 | R$31.00 | $6.01 | €5.19 | [Casa do Eletricista](https://www.casadoeletricistasc.com.br/terminal-pre-isolado-garfo-para-cabo-2-5mm2-azul-100-unidades/p/kit197) |
 | TP-Link UH700 7-Port USB 3.0 Powered Hub | 1 | R$229.90 | $44.6 | €38.49 | [Kabum](https://www.kabum.com.br/produto/129463/hub-tp-link-portatil-usb-3-0-de-7-portas-uh700) |
