@@ -24,4 +24,5 @@ hardware_intro/index
 :caption: Get started
 getting_started/material
 getting_started/3d
+getting_started/assembly
 ```
