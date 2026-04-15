@@ -26,7 +26,7 @@
 > If you are totally new to programming, please spend at least a day to get yourself familiar with basic Python, Ubuntu and Github (with the help of Google and AI). At least you should know how to setup ubuntu system, git clone, pip install, use intepreters (VS Code, Cursor, Pycharm, etc.) and directly run commands in the terminals.
 
 1. 💵 **Buy your parts**: [Bill of Materials](https://open-micky.readthedocs.io/en/latest/hardware/getting_started/material.html)
-<!--2. 🖨️ **Print your stuff**: [3D printing](https://open-micky.readthedocs.io/en/latest/hardware/getting_started/3d.html)
-# 3. 💻 **Software**: [Get your robot moving!](https://xlerobot.readthedocs.io/en/latest/software/index.html)
--->
+2. 🖨️ **Print your stuff**: [3D printing](https://open-micky.readthedocs.io/en/latest/hardware/getting_started/3d.html)
+3. 💻 **Software**: [Get your robot moving!](https://open-micky.readthedocs.io/en/latest/software/index.htmll)
+
 ---
