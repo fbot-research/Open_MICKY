@@ -6,12 +6,12 @@
 Doesn't include cost of 3D printing, tools, shipping and taxes.
 ```
 
-| Price | BRL | EUR | USD |
-|-------|-----|-----|-----|
-| Structural Components | ~R$2105.34 | ~€458.66 | ~$XX.XX |
-| Electrical System | ~R$902.4 | ~€406.38 | ~$XX.XX |
-| Locomotion System | ~R$2834.46 | ~€330.16 | ~$XX.XX |
-| **Total** | **~R$5842.20** | **~€1195.20** | **~$XX.XX** |
+| Price | BRL | EUR | USD | CNY |
+|-------|-----|-----|-----|-----|
+| Structural Components | ~R$2104.86 | ~€458.66 | ~$XX.XX | ~¥XX.XX |
+| Electrical System | ~R$902.4 | ~€406.47 | ~$XX.XX | ~¥XX.XX |
+| Locomotion System | ~R$2834.46 | ~€330.36 | ~$XX.XX | ~¥XX.XX |
+| **Total** | **~R$5841.72** | **~€1195.49** | **~$XX.XX** | **~¥XX.XX** |
 
 
 ## Structural Components
@@ -32,7 +32,7 @@ Doesn't include cost of 3D printing, tools, shipping and taxes.
 | M6 x 20 mm Countersunk Allen Screw | 4 | ~R$0.86 | [Forseti](https://loja.forsetisolucoes.com.br/parafuso-allen-cabeca-conica-escareada-m6) | ~€0.33 | [Motedis](https://www.motedis.com/en/countersunk-screw-with-hexagon-socket-according-to-DIN-7991) |
 | M3 x 20 mm Countersunk Allen Screw | 12 | ~R$0.34 | [Parafuso Fácil](https://www.parafusofacil.com.br/ProdutosDetalhes.php?Codigo=1145445) | ~€0.32 | [Motedis](https://www.motedis.com/en/countersunk-screw-with-hexagon-socket-according-to-DIN-7991) |
 | M3 x 12 mm Countersunk Allen Screw | 18 | ~R$0.19 | [Parafuso Fácil](https://www.parafusofacil.com.br/ProdutosDetalhes.php?Codigo=1215969) | ~€0.32 | [Motedis](https://www.motedis.com/en/countersunk-screw-with-hexagon-socket-according-to-DIN-7991) |
-| M6 x 35 mm Motor Mount Screw | 16 | ~R$1.75 | [Forseti](https://loja.forsetisolucoes.com.br/parafuso-allen-cabeca-abaulada-panela-m6) | ~€0.39 | [Motedis](https://www.motedis.com/en/countersunk-screw-with-hexagon-socket-according-to-DIN-7991) |
+| M6 x 35 mm Motor Mount Screw | 16 | ~R$1.72 | [Forseti](https://loja.forsetisolucoes.com.br/parafuso-allen-cabeca-abaulada-panela-m6) | ~€0.39 | [Motedis](https://www.motedis.com/en/countersunk-screw-with-hexagon-socket-according-to-DIN-7991) |
 | M6 T-Nut | 130 | ~R$2.08 | [Forseti](https://loja.forsetisolucoes.com.br/porca-t-martelo-para-perfil-estrututral-em-aluminio-canal-8-40-40x40-tslot-t-slot) | ~€0.50 | [Motedis](https://www.motedis.com/en/T-nut-B-type-slot-8-M6-stainless-steel) |
 | M6 Hex Nut | 34 | ~R$0.57 | [Forseti](https://loja.forsetisolucoes.com.br/porca-sextavada-m3-m4-m5-m6-m8-m10-m12) | ~€0.30 | [Motedis](https://www.motedis.com/en/Nut-DIN-439-M4-M5-M6-M8-M10-and-M12) |
 | M5 Hex Nut | 16 | ~R$0.57 | [Forseti](https://loja.forsetisolucoes.com.br/porca-sextavada-m3-m4-m5-m6-m8-m10-m12) | ~€0.30 | [Motedis](https://www.motedis.com/en/Nut-DIN-439-M4-M5-M6-M8-M10-and-M12) |
@@ -51,7 +51,7 @@ Doesn't include cost of 3D printing, tools, shipping and taxes.
 | Emergency Stop Button (Mushroom Type) | 1 | ~R$28.90 | [OnEletrica](https://www.oneletrica.com.br/botao-emergencia-22mm-gira-destrava-com-2-contatos-nf) | ~€27.99 | [Conrad](https://www.conrad.com/en/p/schneider-electric-xb5as8442-kill-switch-epo-switch-front-ring-steel-kill-switch-round-reset-function-lockable-1-1983552.html) |
 
 ```{important}
-Use a 4 mm flexible cable for power distribution.
+Use a 4 mm² flexible cable (approximately AWG 11) for power distribution.
 ```
 
 
