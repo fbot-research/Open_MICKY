@@ -13,6 +13,7 @@ Doesn't include cost of 3D printing, tools, shipping and taxes.
 | Locomotion System | ~R$2834.46 | ~€330.36 | ~$XX.XX | ~¥XX.XX |
 | **Total** | **~R$5841.72** | **~€1195.49** | **~$XX.XX** | **~¥XX.XX** |
 
+---
 
 ## Structural Components
 
@@ -41,6 +42,8 @@ Doesn't include cost of 3D printing, tools, shipping and taxes.
 | Acrylic Sheet 1 m × 1.3 m | 1 | ~R$253.16 | [AcriLoja](https://www.acriloja.com/placa-chapa-acrilico/preto/2mm/placa-de-acrilico-preto-100cm-x-150cm-espessura-2mm-chapa-de-acrilico) | ~€86.33 | [Plastic Sheets Shop](https://plasticsheetsshop.co.uk/product/frosted-black-acrylic-sheet-3-mm/) |
 
 
+---
+
 ## Electrical System
 
 | Part | Amount | Unit Cost (BRL) | Buy (R$) | Unit Cost (EUR) | Buy (€) |
@@ -55,6 +58,8 @@ Use a 4 mm² flexible cable (approximately AWG 11) for power distribution.
 ```
 
 
+---
+
 ## Locomotion System
 
 | Part | Amount | Unit Cost (BRL) | Buy (R$) | Unit Cost (EUR) | Buy (€) |
@@ -68,6 +73,8 @@ Use a 4 mm² flexible cable (approximately AWG 11) for power distribution.
 We opted to manufacture the wheels through a local supplier, as this proved to be significantly more cost-effective than purchasing them online. For reference, links to similar wheels available on the market are provided above.
 ```
 
+
+---
 
 ## 3D Printed Parts
 
