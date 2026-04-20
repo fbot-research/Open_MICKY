@@ -10,7 +10,7 @@ Doesn't include cost of 3D printing, tools, shipping and taxes.
 |-------|-----|-----|-----|-----|
 | Structural Components | ~R$2104.86 | ~€458.66 | ~$XX.XX | ~¥XX.XX |
 | Electrical System | ~R$902.4 | ~€406.47 | ~$XX.XX | ~¥XX.XX |
-| Locomotion System | ~R$2834.46 | ~€330.36 | ~$212.25 | ~¥XX.XX |
+| Locomotion System | ~R$2834.46 | ~€330.36 | ~$381.73 | ~¥XX.XX |
 | **Total** | **~R$5841.72** | **~€1195.49** | **~$XX.XX** | **~¥XX.XX** |
 
 ---
