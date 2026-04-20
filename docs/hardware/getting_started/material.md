@@ -10,7 +10,7 @@ Doesn't include cost of 3D printing, tools, shipping and taxes.
 |-------|-----|-----|-----|-----|
 | Structural Components | ~R$2104.86 | ~€458.66 | ~$XX.XX | ~¥XX.XX |
 | Electrical System | ~R$902.4 | ~€406.47 | ~$XX.XX | ~¥XX.XX |
-| Locomotion System | ~R$2834.46 | ~€330.36 | ~$XX.XX | ~¥XX.XX |
+| Locomotion System | ~R$2834.46 | ~€330.36 | ~$212.25 | ~¥XX.XX |
 | **Total** | **~R$5841.72** | **~€1195.49** | **~$XX.XX** | **~¥XX.XX** |
 
 ---
@@ -54,7 +54,7 @@ Doesn't include cost of 3D printing, tools, shipping and taxes.
 | Emergency Stop Button (Mushroom Type) | 1 | ~R$28.90 | [OnEletrica](https://www.oneletrica.com.br/botao-emergencia-22mm-gira-destrava-com-2-contatos-nf) | ~€27.99 | [Conrad](https://www.conrad.com/en/p/schneider-electric-xb5as8442-kill-switch-epo-switch-front-ring-steel-kill-switch-round-reset-function-lockable-1-1983552.html) |
 
 ```{important}
-Use a 4 mm² flexible cable (approximately AWG 11) for power distribution.
+Use a 2 mm² flexible cable (approximately AWG 14) for power distribution.
 ```
 
 
@@ -62,12 +62,12 @@ Use a 4 mm² flexible cable (approximately AWG 11) for power distribution.
 
 ## Locomotion System
 
-| Part | Amount | Unit Cost (BRL) | Buy (R$) | Unit Cost (EUR) | Buy (€) |
-|------|--------|-----------------|----------|-----------------|---------|
-| NEMA 23 Stepper Motor (30 kgf·cm) | 4 | ~R$215.00 | [Tecmaf](https://loja.tecmaf.com.br/motores-de-passo-e-componentes-cnc/motor-de-passo/motor-de-passo-nema-23-30kgf-cm-749) | ~€21.19 | [Cloudray](https://www.cloudraylaser.com/products/cloudray-102mm-3n-m-5a-2-phase-nema23-open-loop-stepper-motor) |
-| TB6600 Stepper Driver | 4 | ~R$79.90 | [RoboCore](https://www.robocore.net/driver-motor/driver-para-motor-de-passo-tb6600) | ~€11.95 | [Otronic](https://www.otronic.nl/en/tb6600-stepper-motor-driver-for-nema-17-23-34-9-42.html) |
-| MPU-9250 IMU with BMP280 (6-pin) | 2 | ~R$127.43 | [Elecbee](https://www.elecbee.com/en/product-detail/mpu9250-bmp280-10dof-gy-91-acceleration-gyroscope-compass-nine-shaft-sensor-module_25515) | ~€22.89 | [Elecbee](https://www.elecbee.com/en/product-detail/mpu9250-bmp280-10dof-gy-91-acceleration-gyroscope-compass-nine-shaft-sensor-module_25515) |
-| 100mm Mecanum Wheel | 1 | ~R$1400.00 | [CelUsinagem](https://celusinagem.wixsite.com/omni-mecanum) | ~€151.82 | [RobotShop](https://eu.robotshop.com/products/100mm-mecanum-wheel-set) | 
+| Part | Amount | Unit Cost (BRL) | Buy (R$) | Unit Cost (EUR) | Buy (€) | Unit Cost (USD) | Buy ($) |
+|------|--------|-----------------|----------|-----------------|---------|-----------------|---------|
+| NEMA 23 Stepper Motor (30 kgf·cm) | 4 | ~R$215.00 | [Tecmaf](https://loja.tecmaf.com.br/motores-de-passo-e-componentes-cnc/motor-de-passo/motor-de-passo-nema-23-30kgf-cm-749) | ~€21.19 | [Cloudray](https://www.cloudraylaser.com/products/cloudray-102mm-3n-m-5a-2-phase-nema23-open-loop-stepper-motor) | ~$28.70 | [StepperOnline](https://www.omc-stepperonline.com/nema-23-bipolar-3nm-425oz-in-8mm-diameter-4-2a-57x57x113mm-4-wires-stepper-motor-23hs45-4204s1) |
+| TB6600 Stepper Driver | 4 | ~R$79.90 | [RoboCore](https://www.robocore.net/driver-motor/driver-para-motor-de-passo-tb6600) | ~€11.95 | [Otronic](https://www.otronic.nl/en/tb6600-stepper-motor-driver-for-nema-17-23-34-9-42.html) | ~$20.00 | [DFRobot](https://www.dfrobot.com/product-1547.html) |
+| MPU-9250 IMU with BMP280 (6-pin) | 2 | ~R$127.43 | [Elecbee](https://www.elecbee.com/en/product-detail/mpu9250-bmp280-10dof-gy-91-acceleration-gyroscope-compass-nine-shaft-sensor-module_25515) | ~€22.89 | [Elecbee](https://www.elecbee.com/en/product-detail/mpu9250-bmp280-10dof-gy-91-acceleration-gyroscope-compass-nine-shaft-sensor-module_25515) | ~$23.38 | [Elecbee](https://www.elecbee.com/en/product-detail/mpu9250-bmp280-10dof-gy-91-acceleration-gyroscope-compass-nine-shaft-sensor-module_25515) |
+| 100mm Mecanum Wheel | 1 | ~R$1400.00 | [CelUsinagem](https://celusinagem.wixsite.com/omni-mecanum) | ~€151.82 | [RobotShop](https://eu.robotshop.com/products/100mm-mecanum-wheel-set) | ~$140.17 | [RobotShop](https://www.robotshop.com/products/100mm-mecanum-wheel-set) |
 
 ```{note}
 We opted to manufacture the wheels through a local supplier, as this proved to be significantly more cost-effective than purchasing them online. For reference, links to similar wheels available on the market are provided above.
