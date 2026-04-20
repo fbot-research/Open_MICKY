@@ -1,6 +1,10 @@
 Open MICKY
 ===========
 
+[![GitHub](https://img.shields.io/badge/GitHub-MICKY-black?logo=github)](https://github.com/fbot-research/Open_MICKY) [![Instagram](https://img.shields.io/badge/Follow-@furgbot-E4405F?logo=instagram&logoColor=white)](https://instagram.com/furgbot)
+
+---
+
 <div style="text-align: justify;">
   The high cost of commercial mobile robot platforms remains a significant barrier for teams entering competitive and research environments such as RoboCup@Work, particularly in regions with limited funding, such as Latin America. This barrier often restricts participation and slows down the development of new robotics solutions.
 
@@ -16,8 +20,6 @@ Open MICKY
 </div>
 
 ![image](./_static/micky.jpeg)
-
-[![GitHub](https://img.shields.io/badge/GitHub-MICKY-black?logo=github)](https://github.com/fbot-research/Open_MICKY) [![Instagram](https://img.shields.io/badge/Follow-@furgbot-E4405F?logo=instagram&logoColor=white)](https://instagram.com/furgbot)
 
 ---
 
