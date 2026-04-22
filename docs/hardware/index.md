@@ -26,4 +26,5 @@ getting_started/material
 getting_started/3d
 getting_started/assembly
 getting_started/locomotion_system
+getting_started/comparative
 ```
