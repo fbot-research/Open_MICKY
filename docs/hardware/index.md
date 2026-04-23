@@ -5,12 +5,12 @@
 > Cost excludes 3D printing, tools, shipping, and taxes.
 > 
 
-| Price | R$ | US | EU |
-| --- | --- | --- | --- |
-| Structural | ~R$949.62 | ~$184.16 | ~€158.78 |
-| Motion System | ~R$3140 | ~$608.95 | ~€525.01 |
-| Eletronics | ~R$1133.01 | ~$219.73 | ~€189.44 |
-| **Total** | **~R$5222.63** | **~$1012.84** | **~€873.22** |
+| Price | BRL | EUR | USD |
+|-------|-----|-----|-----|
+| Structural Components | ~R$2103.18 | ~€458.66 | ~$1064.58 |
+| Electrical System | ~R$902.4 | ~€406.47 | ~$200.81 |
+| Locomotion System | ~R$2834.46 | ~€330.36 | ~$381.73 |
+| **Total** | **~R$5840.04** | **~€1195.49** | **~$1647.12** |
 
 
 ## Get Started

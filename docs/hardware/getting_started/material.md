@@ -6,12 +6,12 @@
 Doesn't include cost of 3D printing, tools, shipping and taxes.
 ```
 
-| Price | BRL | EUR | USD | CNY |
-|-------|-----|-----|-----|-----|
-| Structural Components | ~R$2103.18 | ~€458.66 | ~$1064.58 | ~¥XX.XX |
-| Electrical System | ~R$902.4 | ~€406.47 | ~$200.81 | ~¥XX.XX |
-| Locomotion System | ~R$2834.46 | ~€330.36 | ~$381.73 | ~¥XX.XX |
-| **Total** | **~R$5840.04** | **~€1195.49** | **~$1647.12** | **~¥XX.XX** |
+| Price | BRL | EUR | USD |
+|-------|-----|-----|-----|
+| Structural Components | ~R$2103.18 | ~€458.66 | ~$1064.58 |
+| Electrical System | ~R$902.4 | ~€406.47 | ~$200.81 |
+| Locomotion System | ~R$2834.46 | ~€330.36 | ~$381.73 |
+| **Total** | **~R$5840.04** | **~€1195.49** | **~$1647.12** |
 
 ---
 
