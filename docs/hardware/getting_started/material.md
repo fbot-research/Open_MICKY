@@ -1,6 +1,8 @@
-# Bill of Materials
+# 🛒 Bill of Materials
 
-##  Total Cost 
+<div style="text-align: justify;">
+
+## Total Cost 
 
 ```{note}
 Doesn't include cost of 3D printing, tools, shipping and taxes.
@@ -98,3 +100,5 @@ The following table lists all required 3D printed components.
 | Motors | Rear Motor Mount Left | 1 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/motors/rear_motor_mount_left.stl) |
 | Motors | Rear Motor Mount Right | 1 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/motors/rear_motor_mount_right.stl) |
 | Emergency | Emergency Stop Button Mount | 1 | [STL](https://github.com/fbot-research/open_micky/blob/main/hardware/emergency_button/emergency_button.stl) |
+
+</div>

@@ -1,6 +1,8 @@
-# Hardware
+# 🖥️ Hardware
 
-## Total Cost
+<div style="text-align: justify;">
+
+## 💵 Total Cost
 
 > Cost excludes 3D printing, tools, shipping, and taxes.
 > 
@@ -13,7 +15,7 @@
 | **Total** | **~R$5840.04** | **~€1195.49** | **~$1647.12** |
 
 
-## Get Started
+## 🚀 Get Started
 
 ```{toctree}
 :caption: Hardware Intro
@@ -28,3 +30,5 @@ getting_started/assembly
 getting_started/comparative
 getting_started/locomotion_system
 ```
+
+</div>

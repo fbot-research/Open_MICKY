@@ -1,4 +1,6 @@
-# Hardware Overview
+# 🛠️ Hardware Overview 🛠️
+
+<div style="text-align: justify;">
 
 MICKY is a modular industrial mobile robot designed for low-cost development, reproducibility, and real-world industrial applications.
 
@@ -47,3 +49,5 @@ The robot was designed with the following principles:
 All structural components are designed to be compatible with aluminum profiles and 3D printed mounts, ensuring a balance between rigidity and manufacturing simplicity.
 
 For detailed part lists and fabrication instructions, refer to the Bill of Materials and 3D Printing sections.
+
+</div>

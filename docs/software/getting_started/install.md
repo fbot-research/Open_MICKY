@@ -1,4 +1,6 @@
-# Install MICKY
+# ⬇️ Install MICKY
+
+<div style="text-align: justify;">
 
 To install MICKY, follow the commands below.
 
@@ -134,3 +136,5 @@ cd ~/micky_ws
 colcon build --symlink-install
 source install/setup.bash
 ```
+
+</div>

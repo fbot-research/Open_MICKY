@@ -1,4 +1,6 @@
-# Locomotion System
+# ⚙️ Locomotion System
+
+<div style="text-align: justify;">
 
 MICKY uses a Mecanum wheel-based locomotion system, enabling omnidirectional motion without requiring rotation of the robot body.
 
@@ -28,3 +30,5 @@ This allows:
 - Lateral (sideways) motion  
 - Rotation  
 - Combined movements (e.g., diagonal motion)  
+
+</div>

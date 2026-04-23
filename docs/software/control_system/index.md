@@ -1,4 +1,6 @@
-# Control System
+# 🧠 Control System
+
+<div style="text-align: justify;">
 
 The MICKY control system follows a hybrid architecture, combining high-level processing with low-level embedded control.
 
@@ -51,3 +53,5 @@ The system is integrated with ROS 2 through two main nodes:
 - **ImuSerialPublisher** — publishes IMU data  
 
 This architecture allows seamless integration with higher-level navigation and control frameworks.
+
+</div>

@@ -1,4 +1,6 @@
-# MICKY Teleop
+# 🎮 MICKY Teleop
+
+<div style="text-align: justify;">
 
 This section guides you through running the MICKY teleoperation.
 
@@ -98,3 +100,5 @@ ros2 run teleop_twist_joy teleop_node
 
 - Left analog stick → linear motion (forward/backward and lateral)
 - Right analog stick → rotation
+
+</div>

@@ -1,22 +1,26 @@
-# Assembly
+# ⚒️ Assembly
+
+<div style="text-align: justify;">
 
 ![Robot overview](../../_static/robot.jpeg)
 
-This section describes the assembly process of the MICKY platform, including mechanical construction, PCB fabrication, and electronic integration.
+This section describes the assembly process of the MICKY robot, including mechanical construction, PCB fabrication, and electronic integration.
 
 ---
 
 ## Mechanical Assembly
 
-This section will describe the mechanical assembly of the platform, including the structural frame and mounting process.
+This section will describe the mechanical assembly of the robot, including the structural frame and mounting process.
 
 ---
 
 ## Electronics Assembly
 
+This section describes the electrical assembly of the robot, including PCB fabrication, wiring, and integration of electronic components.
+
 ### PCB Fabrication
 
-This section describes the process used to manufacture the custom Printed Circuit Boards (PCBs) developed for the MICKY platform. The boards were produced using a low-cost and accessible method, allowing easy replication without specialized equipment.
+This section describes the process used to manufacture the custom Printed Circuit Boards (PCBs) developed for the MICKY robot. The boards were produced using a low-cost and accessible method, allowing easy replication without specialized equipment.
 
 ### Required Materials
 
@@ -51,6 +55,8 @@ This section describes the process used to manufacture the custom Printed Circui
 ---
 
 ### Custom Boards
+
+These custom boards were designed to simplify system integration and ensure reliable power distribution and signal connectivity across the platform. Each board targets a specific subsystem, contributing to a modular and easily maintainable architecture.
 
 #### Arduino Interface Board
 
@@ -92,7 +98,7 @@ This section describes the process used to manufacture the custom Printed Circui
 
 ---
 
-## Notes
-
 ```{important}
 Ferric chloride is corrosive. Always use protective equipment and work in a ventilated environment.
+
+</div>

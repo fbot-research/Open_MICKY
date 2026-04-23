@@ -1,4 +1,6 @@
-# Comparative Analysis
+# 📊 Comparative Analysis
+
+<div style="text-align: justify;">
 
 ## Introduction
 
@@ -73,3 +75,5 @@ It is a benchmark in service robotics design. With 207 mm wheels and industrial-
 
 - **SuperDroid IG52:**  
 Achieves payloads of 90 kg through a chain reduction system (10:15). While effective for heavy loads, the chain system requires lubrication and tension adjustment, whereas MICKY’s direct coupling reduces mechanicalmaintenance.
+
+</div>

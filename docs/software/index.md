@@ -1,8 +1,10 @@
-# Software
+# 💻 Software
+
+<div style="text-align: justify;">
 
 Here we will show how to install and run MICKY robot.
 
-## Quick Guide
+## 🚀 Quick Guide
 ```{note}
 If this is your first time using MICKY, it is recommended to start with keyboard teleoperation to get familiar with the system.
 ```
@@ -36,3 +38,5 @@ getting_started/MICKY_teleop
 :caption: Simulation
 getting_started/simulation
 ```
+
+</div>

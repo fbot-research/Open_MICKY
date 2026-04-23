@@ -1,4 +1,6 @@
-# MICKY Simulation
+# 🧪 MICKY Simulation
+
+<div style="text-align: justify;">
 
 This section guides you through running the MICKY simulation environment using Gazebo and ROS 2.
 
@@ -95,3 +97,5 @@ ros2 topic pub /cmd_vel geometry_msgs/msg/Twist \
 ```
 
 If the robot moves in Gazebo but not from teleop, make sure the teleop terminal has focus (keyboard input is captured there).
+
+</div>
