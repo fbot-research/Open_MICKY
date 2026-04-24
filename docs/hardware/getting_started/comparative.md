@@ -20,15 +20,23 @@ Ultimately, the goal of this project is to democratize access to mobile robotics
 
 ## 1. Technical Characterization of the MICKY Base
 
-The MICKY base utilizes a structure made of industrial 40x40 mm aluminum profiles and a Mecanum wheel-based drive system. Although the hardware includes 6 motors, the software and kinematic configuration uses 4 active motors for locomotion.
+The MICKY base features a structure built from industrial 40×40 mm aluminum profiles combined with a Mecanum wheel drive system. Although the hardware includes six motors, the control architecture utilizes four active motors for locomotion.
 
 - **Total Cost (BOM):** ~$1647.12 USD
 - **Operational Payload:** 32.55 kg
-- **Actuators (Active):** 4x NEMA 23 stepper motors with 30 kgf·cm torque each
-- **Wheels:** Mecanum MEC-100 set (100 mm diameter). Nominal capacity of 15 kg per wheel
-- **Structure:** Modular chassis using 40x40 mm aluminum profiles (Slot 8)
+- **Actuators (Active):** 4× NEMA 23 stepper motors with 30 kgf·cm torque each
+- **Wheels:** Mecanum MEC-100 set (100 mm diameter), with a nominal capacity of 15 kg per wheel
+- **Structure:** Modular chassis using 40×40 mm aluminum profiles (Slot 8)
 
-With a traction force of 24 kgf for a payload of 32.55 kg (plus a base mass of ~25 kg), the platform operates with a **Traction-to-Total Weight Ratio of ~0.41**, ensuring stability during lateral strafing maneuvers without step loss under moderate accelerations.
+<div align="center">
+<video width="40%" controls>
+  <source src="../../_static/videos/payload_test.mp4" type="video/mp4">
+</video>
+</div>
+
+*Experimental payload validation: MICKY transporting a 20 L load (~20 kg), demonstrating stable locomotion under real-world conditions.*
+
+With a traction force of 24 kgf for a payload of 32.55 kg (plus a base mass of ~25 kg), the platform operates with a **traction-to-total weight ratio of approximately 0.41**, ensuring stability during lateral maneuvers without step loss under moderate accelerations.
 
 ---
 
