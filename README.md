@@ -30,7 +30,7 @@
 1. 💵 **Buy your parts**: [Bill of Materials](https://open-micky.readthedocs.io/en/latest/hardware/getting_started/material.html)
 2. 🖨️ **Print your parts**: [3D printing](https://open-micky.readthedocs.io/en/latest/hardware/getting_started/3d.html)
 3. ⚒️ **Build your robot**: [Assembly](https://open-micky.readthedocs.io/en/latest/hardware/getting_started/assembly.html)
-4. 💻 **Get it running**: [Software](https://open-micky.readthedocs.io/en/latest/software/index.htmll)
+4. 💻 **Get it running**: [Software](https://open-micky.readthedocs.io/en/latest/software/index.html)
 
 ---
 

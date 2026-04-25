@@ -29,7 +29,7 @@
 
 1. 💵 **Compre os componentes**: [Lista de Materiais](https://open-micky.readthedocs.io/pt-br/latest/hardware/getting_started/material.html)
 2. 🖨️ **Imprima as peças**: [Impressão 3D](https://open-micky.readthedocs.io/pt-br/latest/hardware/getting_started/3d.html)
-3. 🛠️ **Monte o robô**: [Assembly](https://open-micky.readthedocs.io/pt-br/latest/hardware/getting_started/assembly.html)
+3. 🛠️ **Monte o robô**: [Montagem](https://open-micky.readthedocs.io/pt-br/latest/hardware/getting_started/assembly.html)
 4. 💻 **Coloque em funcionamento**: [Software](https://open-micky.readthedocs.io/pt-br/latest/software/index.html)
 
 ---
