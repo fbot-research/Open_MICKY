@@ -10,7 +10,13 @@ This section describes the assembly process of the MICKY robot, including mechan
 
 ## Mechanical Assembly
 
-This section will describe the mechanical assembly of the robot, including the structural frame and mounting process.
+This section shows the mechanical assembly of the MICKY robot through a video demonstration.
+
+<iframe width="800" height="600" 
+    src="https://www.youtube.com/embed/PALwkMxWDME"
+    frameborder="0" 
+    allowfullscreen>
+</iframe>
 
 ---
 
