@@ -36,7 +36,9 @@
 
 ## 👥 Contribuidores
 
-Este projeto foi desenvolvido pela equipe de robótica FBOT:
+Este projeto foi desenvolvido pela equipe de robótica FBOT.
+
+**Principais Contribuidores:**
 
 - [Caio Paiva](https://github.com/CaioCPaiva) – Construção do robô e modelagem dos suportes 3D  
 - [Conrado Floriano](https://github.com/conradof) – Construção do robô  
