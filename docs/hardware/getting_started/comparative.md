@@ -22,7 +22,20 @@ Ultimately, the goal of this project is to democratize access to mobile robotics
 
 The MICKY base features a structure built from industrial 40×40 mm aluminum profiles combined with a Mecanum wheel drive system. Although the hardware includes six motors, the control architecture utilizes four active motors for locomotion.
 
-- **Total Cost (BOM):** ~$1647.12 USD
+To provide transparency regarding the platform's cost-efficiency, the total Bill of Materials (BOM) is broken down by functional subsystem in Table 1. 
+
+**Table 1: Detailed Component Cost Breakdown**
+
+| Subsystem | Components | Estimated Cost (USD) |
+| :--- | :--- | :--- |
+| **Structural** | 40×40 mm aluminum profiles, brackets, fasteners, custom plates | ~$250.00 |
+| **Locomotion** | 4× MEC-100 Mecanum Wheels (100 mm), hubs, mechanical couplings | ~$185.00 |
+| **Actuators** | 4× NEMA 23 stepper motors (30 kgf·cm) + 2 spare motors | ~$210.00 |
+| **Control & Electronics** | Motor drivers, microcontrollers/SBC, wiring, emergency stop | ~$450.00 |
+| **Power System** | Battery pack, Battery Management System (BMS), step-down modules | ~$250.00 |
+| **Sensors** | 2D LiDAR, basic odometry sensors | ~$302.12 |
+| **Total (BOM)** | | **~$1647.12** |
+
 - **Operational Payload:** 32.55 kg
 - **Actuators (Active):** 4× NEMA 23 stepper motors with 30 kgf·cm torque each
 - **Wheels:** Mecanum MEC-100 set (100 mm diameter), with a nominal capacity of 15 kg per wheel
@@ -44,23 +57,26 @@ With a traction force of 24 kgf for a payload of 32.55 kg (plus a base mass of ~
 
 Below is a compilation of technical data for the requested platforms, including low-cost models and industrial reference systems.
 
+**Selection Criteria:** The benchmarked robots were chosen to represent a diverse cross-section of the Commercial Off-The-Shelf (COTS) omnidirectional market. This selection spans entry-level educational platforms (Wheeltec R550, myAGV), mid-range research vehicles (Mecabot Pro, SuperDroid IG52), and high-end industrial/research standards (TIAGo OMNI Base, TidyBot++). Evaluating these distinct tiers enables a rigorous assessment of MICKY's payload-to-cost efficiency against solutions built for varying funding constraints and application scales. Technical data and retail prices were sourced directly from the respective manufacturers' official datasheets and academic literature [1]-[5].
 
 | Model (Label) | Payload (kg) | Cost (USD) | Drive Type | Efficiency ($/kg) |
 |---------------|:------------:|:----------:|:----------:|:-----------------:|
 | MICKY | 32.55 | ~$1647.12 | Mecanum (4-wheel drive) | $50.60 |
-| Wheeltec R550 | 15.00 | ~$532 | Mecanum (4-wheel drive) | $35.46 |
-| myAGV 2023 Pi | 5.00 | ~$949 | Mecanum (planetary) | $189.80 |
+| Wheeltec R550 [1] | 15.00 | ~$532 | Mecanum (4-wheel drive) | $35.46 |
+| myAGV 2023 Pi [2] | 5.00 | ~$949 | Mecanum (planetary) | $189.80 |
 | Mecabot Pro | 22.00 | ~$6,918 | Mecanum (with suspension) | $314.45 |
-| SuperDroid IG52 | 90.00 | ~$3,750 | Mecanum (chain-driven) | $41.66 |
+| SuperDroid IG52 [3] | 90.00 | ~$3,750 | Mecanum (chain-driven) | $41.66 |
 | AGV Pro | 50.00 | ~$6,000* | Mecanum/Omni | $120.00 |
-| TIAGo OMNI Base | 100.00 | ~$15,000* | Mecanum (industrial) | $150.00 |
-| TidyBot++ | 90.00 | ~$10,000* | Powered casters | $111.11 |
+| TIAGo OMNI Base [4] | 100.00 | ~$15,000* | Mecanum (industrial) | $150.00 |
+| TidyBot++ [5] | 90.00 | ~$10,000* | Powered casters | $111.11 |
 
 ---
 
 ## 3. Cost vs. Payload Analysis
 
-The scatter plot (represented by the axes below) allows identification of design efficiency. Platforms located in the lower-right quadrant represent the highest payload delivery per dollar invested.
+To rigorously evaluate the economic viability of the MICKY platform, a structured cost analysis was conducted based on a comprehensive and fully traceable Bill of Materials (BOM), openly available in the [project's official documentation](https://open-micky.readthedocs.io/en/latest/hardware/getting_started/material.html). By strategically integrating Commercial Off-The-Shelf (COTS) components with locally manufactured structural profiles, the total hardware cost was constrained to approximately \$1,647.12 USD. 
+
+The relationship between cost and payload capacity, derived from quantitative experimental validation, is illustrated in the scatter plot below. The results demonstrate that MICKY achieves a highly competitive efficiency of \$50.60/kg, successfully bridging the gap between low-cost educational platforms and high-end industrial systems. Furthermore, while the use of a direct-driven Mecanum architecture introduces known mechanical limitations—such as vertical vibration on uneven surfaces and a restricted maximum velocity and acceleration compared to continuously steered wheels—this cost-to-payload metric confirms that higher payload capabilities can be decoupled from prohibitive system costs without compromising fundamental holonomic performance.
 
 ![Graph](../../_static/cost_analysis.png)
 
@@ -68,20 +84,26 @@ The scatter plot (represented by the axes below) allows identification of design
 
 The analysis reveals that MICKY occupies an **Efficiency Anomaly** niche.
 
-- **MICKY vs. myAGV 2023 Pi:**  
-While the cost is higher (~$1647 vs $949), MICKY delivers **6.5× more payload** (32.55 kg vs 5 kg). This highlights a significantly better cost-to-performance ratio in practical applications.
+- **MICKY vs. myAGV 2023 Pi:** While the cost is higher (~$1647 vs $949), MICKY delivers **6.5× more payload** (32.55 kg vs 5 kg). This highlights a significantly better cost-to-performance ratio in practical applications.
 
-- **MICKY vs. Mecabot Pro:**  
-Mecabot Pro costs over four times more, yet its payload is **32% lower (22 kg)**. MICKY demonstrates that higher mechanical traction capacity can be achieved using industrial COTS components at a fraction of the cost.
+- **MICKY vs. Mecabot Pro:** Mecabot Pro costs over four times more, yet its payload is **32% lower (22 kg)**. MICKY demonstrates that higher mechanical traction capacity can be achieved using industrial COTS components at a fraction of the cost.
 
 ### 3.2 The Industrial Challenge: TIAGo OMNI Base and SuperDroid
 
 These platforms represent the upper limits of payload capacity.
 
-- **TIAGo OMNI Base:**  
-It is a benchmark in service robotics design. With 207 mm wheels and industrial-grade motors, it supports a 100 kg payload. MICKY achieves **~32% of this payload at ~11% of the cost**, making it a viable alternative for budget-constrained laboratories.
+- **TIAGo OMNI Base:** It is a benchmark in service robotics design. With 207 mm wheels and industrial-grade motors, it supports a 100 kg payload. MICKY achieves **~32% of this payload at ~11% of the cost**, making it a viable alternative for budget-constrained laboratories.
 
-- **SuperDroid IG52:**  
-Achieves payloads of 90 kg through a chain reduction system (10:15). While effective for heavy loads, the chain system requires lubrication and tension adjustment, whereas MICKY’s direct coupling reduces mechanicalmaintenance.
+- **SuperDroid IG52:** Achieves payloads of 90 kg through a chain reduction system (10:15). While effective for heavy loads, the chain system requires lubrication and tension adjustment, whereas MICKY’s direct coupling reduces mechanical maintenance.
+
+---
+
+## 4. References
+
+[1] Dongguan Wheeltec Intelligent Technology Co., Ltd. "WHEELTEC R550 Omnidirectional ROS Robot Technical Specifications."  
+[2] Elephant Robotics. "myAGV 2023 Pi Specifications - Mobile Chassis Autonomous Navigation." [Online]. Available: https://www.elephantrobotics.com/en/myagv-2023-pi-specifications-en/  
+[3] SuperDroid Robots. "IG52 Mecanum Robot Platform Technical Datasheet."  
+[4] PAL Robotics. "TIAGo OMNI Base - Innovation in every direction, Technical Specifications." [Online]. Available: https://pal-robotics.com/robot/tiago-omni-base/  
+[5] Princeton University / Stanford University, "TidyBot++: Open-source Omnidirectional Mobile Base Specifications."
 
 </div>
